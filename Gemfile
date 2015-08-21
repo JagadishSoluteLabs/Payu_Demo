@@ -4,9 +4,7 @@ gem 'rails', '3.2.14'
 gem 'thin', '1.5.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'pg'
-
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -23,7 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.2.1'
-
+gem 'rails_12factor', group: :production
 # PayU India gem - To pay with PayU payment gateway
 gem 'payuindia', :git => 'git://github.com/payu-india/payuindia.git'
 
