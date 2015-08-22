@@ -84,4 +84,4 @@ production:
   <<: *default
   database: payumoney_demo
   username: postgres
-  password: postgres
+  #password: postgres
